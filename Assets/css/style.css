@@ -1,6 +1,6 @@
 @font-face{
        font-family: "Vollkorn";
-       src: url("/home/aurore/Bureau/Simplon_OnLine/Portfolio/Assets/font/Vollkorn-Medium.ttf");
+       src: url("Assets/font/Vollkorn-Medium.ttf");
 }
 
 
@@ -10,7 +10,7 @@
 
     
 #part1 {
-       background: url("/home/aurore/Bureau/Simplon_OnLine/Portfolio/Assets/images/day3.jpg") center 0 no-repeat fixed;
+       background-image: url("/home/aurore/Bureau/Simplon_OnLine/Portfolio/Portfolio/Assets/images/day3.jpg") center 0 no-repeat fixed;
 }
 
 #présentation{
@@ -40,7 +40,7 @@
 
 #part2 {
 
-       background: url("/home/aurore/Bureau/Simplon_OnLine/Portfolio/Assets/images/nasa2.jpg") center 0 no-repeat fixed;
+       background-image: url("Assets/images/nasa2.jpg") center 0 no-repeat fixed;
 }
 
 #one{
@@ -121,7 +121,7 @@ p{
 
 
 #part3 {
-       background: url("/home/aurore/Bureau/Simplon_OnLine/Portfolio/Assets/images/pc3.jpg") center 0 no-repeat fixed;
+       background-image: url("Assets/images/pc3.jpg") center 0 no-repeat fixed;
 }
 
 .inside {   
