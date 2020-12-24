@@ -1,0 +1,169 @@
+@font-face{
+       font-family: "Vollkorn";
+       src: url("Assets/font/Vollkorn-Medium.ttf");
+}
+
+
+*{
+       font-family: "Vollkorn";
+}
+
+    
+#part1 {
+       background-image: url("/home/aurore/Bureau/Simplon_OnLine/Portfolio/Portfolio/Assets/images/day3.jpg") center 0 no-repeat fixed;
+}
+
+#présentation{
+       color:black;
+       display:flex;
+       flex-direction:row;
+       align-items:center;
+       width:30%;
+       padding-left:2.7%;
+}
+
+#prez{
+       font-size:1.4em;
+       margin-top: 60%;
+       margin-bottom: 40%;
+       padding-left: 5%;
+       padding-right: 5%;
+       text-align:center;    
+}
+
+.nom{
+       margin-top:5%;
+       color:black;
+       font-size:1.3em;
+       text-decoration:none;
+}
+
+#part2 {
+
+       background-image: url("Assets/images/nasa2.jpg") center 0 no-repeat fixed;
+}
+
+#one{
+       font-size:1.7em;
+       border: 2px solid white;
+}
+
+#two{
+       font-size:1.7em;
+       border: 2px solid white;
+}
+
+#travaux{
+       padding-top:10%;
+      
+}
+
+.trav{
+       text-align:center;
+       font-size: 3em;
+       font-weight:bold;
+}
+
+
+.card-deux{
+       text-align: center;
+       padding-top:5%;
+       margin-bottom:20%;
+       border: 2px solid black;
+       background-color: white;
+       color:black;
+}
+
+h5{
+       font-size:1.1em;
+       text-align:center;
+}
+
+h2{
+       font-size:2.9em;
+       color:white;
+       text-decoration:underline;
+}
+
+p{
+       font-style:italic;
+}
+
+#un{   width:150%;
+       margin-left:-23%;
+       margin-top: 10%;
+       margin-bottom: 10%;
+       display:flex;
+       flex-direction:row;
+       justify-content:space-around;
+       align-items:center;
+       
+}
+
+  
+#deux{
+       color:black;
+       margin-top: 10%;
+       padding-bottom: 50%;
+       display:flex;
+       flex-direction:row;
+       justify-content:space-around;
+       align-items:center;
+
+}
+
+.random{
+       display:flex;
+       flex-direction:row;
+       justify-content:space-around;
+
+}
+
+
+#part3 {
+       background-image: url("Assets/images/pc3.jpg") center 0 no-repeat fixed;
+}
+
+.inside {   
+       margin: 0px auto;
+       text-align:justify;
+       width: 500px;
+       padding: 50px 0px;
+       height: 1200px;
+}
+
+#contact{
+       border: 2px solid black;
+       margin-top: 80%;
+       margin-bottom: 30%;
+       padding-bottom: 5%;
+       padding-left: 8%;
+       padding-right: 8%;
+       text-align:center;    
+}   
+
+.call{
+       text-decoration: underline;
+       font-size:1.7em;
+}
+    
+.social{
+       width: 50px;
+       height: 50px;
+}
+
+
+
+@media all and (max-width: 320px){
+       .inside{
+              max-width:300px;
+       }
+}
+
+
+@media all and (max-width: 320px){
+       #contacts{
+              max-width:320px;
+              margin-top:30%;
+       }
+}
