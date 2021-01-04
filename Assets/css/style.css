@@ -10,7 +10,7 @@
 
     
 #part1 {
-       background-image: url("/home/aurore/Bureau/Simplon_OnLine/Portfolio/Portfolio/Assets/images/day3.jpg") center 0 no-repeat fixed;
+       background: url("../images/day3.jpg") center 0 no-repeat fixed;
 }
 
 #présentation{
@@ -40,7 +40,14 @@
 
 #part2 {
 
-       background-image: url("Assets/images/nasa2.jpg") center 0 no-repeat fixed;
+       background: url("../images/nasa2.jpg") center 0 no-repeat fixed;
+}
+
+.row-button{
+       display: flex;
+       flex-direction:row;
+       align-items:center;
+       justify-content:space-around;
 }
 
 #one{
@@ -121,7 +128,7 @@ p{
 
 
 #part3 {
-       background-image: url("Assets/images/pc3.jpg") center 0 no-repeat fixed;
+       background: url("../images/pc3.jpg") center 0 no-repeat fixed;
 }
 
 .inside {   
